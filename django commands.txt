@@ -1,0 +1,299 @@
+
+You have 17 unapplied migration(s). Your project may not work properly until you
+ apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+June 10, 2020 - 04:25:22
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>
+C:\Users\Bryan Devadatha\Desktop\django_project1>
+C:\Users\Bryan Devadatha\Desktop\django_project1>vyfcgh
+'vyfcgh' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying sessions.0001_initial... OK
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py createsuperuse
+r
+Username (leave blank to use 'bryandevadatha'): bryan
+Email address: samuelblaze283@gmail.com
+Password:
+Password (again):
+This password is entirely numeric.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:29:05
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:29:30] "GET /admin HTTP/1.1" 301 0
+[10/Jun/2020 04:29:30] "GET /admin/ HTTP/1.1" 302 0
+[10/Jun/2020 04:29:30] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[10/Jun/2020 04:29:31] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[10/Jun/2020 04:29:31] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+
+[10/Jun/2020 04:29:31] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[10/Jun/2020 04:29:31] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[10/Jun/2020 04:29:31] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP
+/1.1" 200 85876
+[10/Jun/2020 04:29:31] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1
+.1" 200 85692
+[10/Jun/2020 04:29:43] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[10/Jun/2020 04:29:44] "GET /admin/ HTTP/1.1" 200 3042
+[10/Jun/2020 04:29:44] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[10/Jun/2020 04:29:44] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+
+[10/Jun/2020 04:29:44] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200
+380
+[10/Jun/2020 04:29:44] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.
+1" 200 86184
+[10/Jun/2020 04:30:06] "GET /admin/auth/user/ HTTP/1.1" 200 6618
+[10/Jun/2020 04:30:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:30:06] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+
+[10/Jun/2020 04:30:06] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[10/Jun/2020 04:30:06] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[10/Jun/2020 04:30:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/
+1.1" 200 6918
+[10/Jun/2020 04:30:06] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[10/Jun/2020 04:30:06] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[10/Jun/2020 04:30:06] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 2
+00 287630
+[10/Jun/2020 04:30:06] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[10/Jun/2020 04:30:06] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1"
+ 200 128820
+[10/Jun/2020 04:30:07] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[10/Jun/2020 04:30:07] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[10/Jun/2020 04:30:07] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[10/Jun/2020 04:30:07] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 10
+97
+[10/Jun/2020 04:30:27] "GET /admin/auth/user/add/ HTTP/1.1" 200 5753
+[10/Jun/2020 04:30:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:30:27] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[10/Jun/2020 04:30:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 4
+95
+[10/Jun/2020 04:30:27] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[10/Jun/2020 04:30:27] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+[10/Jun/2020 04:31:23] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[10/Jun/2020 04:31:23] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14131
+[10/Jun/2020 04:31:24] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[10/Jun/2020 04:31:24] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1
+" 200 20232
+[10/Jun/2020 04:31:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:31:24] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 1231
+8
+[10/Jun/2020 04:31:24] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+[10/Jun/2020 04:31:24] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+
+[10/Jun/2020 04:31:24] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 10
+86
+[10/Jun/2020 04:31:24] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200
+ 655
+[10/Jun/2020 04:31:24] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3
+291
+[10/Jun/2020 04:31:24] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[10/Jun/2020 04:31:44] "GET /admin/auth/user/ HTTP/1.1" 200 7034
+[10/Jun/2020 04:31:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:31:44] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[10/Jun/2020 04:31:48] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 13924
+[10/Jun/2020 04:31:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:31:50] "GET /admin/auth/user/ HTTP/1.1" 200 7034
+[10/Jun/2020 04:31:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\models.py changed, rel
+oading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:36:38
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py makemigrations
+
+Migrations for 'accounts':
+  accounts\migrations\0001_initial.py
+    - Create model customer
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py migrate
+Operations to perform:
+  Apply all migrations: accounts, admin, auth, contenttypes, sessions
+Running migrations:
+  Applying accounts.0001_initial... OK
+
+C:\Users\Bryan Devadatha\Desktop\django_project1>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:38:49
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:38:53] "GET /admin/auth/user/ HTTP/1.1" 200 7034
+[10/Jun/2020 04:38:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\admin.py changed, relo
+ading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\thre
+ading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\thre
+ading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\utils\autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\core\management\commands\runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\utils\autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\core\management\__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\utils\autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\apps\registry.py", line 122, in populate
+    app_config.ready()
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\contrib\admin\apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\contrib\admin\__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\site
+-packages\django\utils\module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "C:\Users\Bryan Devadatha\AppData\Local\Programs\Python\Python37\lib\impo
+rtlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\admin.py", lin
+e 4, in <module>
+    from models import customer
+ModuleNotFoundError: No module named 'models'
+
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\admin.py changed, relo
+ading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:41:58
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:41:59] "GET /admin/auth/user/ HTTP/1.1" 200 7034
+[10/Jun/2020 04:41:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:42:23] "GET /admin/auth/user/ HTTP/1.1" 200 7034
+[10/Jun/2020 04:42:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:42:36] "GET /admin/ HTTP/1.1" 200 4053
+[10/Jun/2020 04:42:37] "GET /admin/ HTTP/1.1" 200 4053
+[10/Jun/2020 04:42:39] "GET /admin/accounts/customer/ HTTP/1.1" 200 3191
+[10/Jun/2020 04:42:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:42:43] "GET /admin/accounts/customer/add/ HTTP/1.1" 200 4952
+[10/Jun/2020 04:42:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:42:58] "POST /admin/accounts/customer/add/ HTTP/1.1" 302 0
+[10/Jun/2020 04:42:58] "GET /admin/accounts/customer/ HTTP/1.1" 200 4576
+[10/Jun/2020 04:42:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:43:04] "GET /admin/accounts/customer/1/change/ HTTP/1.1" 200 523
+0
+[10/Jun/2020 04:43:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:43:08] "GET /admin/accounts/customer/ HTTP/1.1" 200 4373
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\models.py changed, rel
+oading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:44:01
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:44:02] "GET /admin/accounts/customer/ HTTP/1.1" 200 4373
+[10/Jun/2020 04:44:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\models.py changed, rel
+oading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:44:11
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:44:11] "GET /admin/accounts/customer/ HTTP/1.1" 200 4373
+[10/Jun/2020 04:44:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:44:13] "GET /admin/accounts/customer/1/change/ HTTP/1.1" 200 523
+0
+[10/Jun/2020 04:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[10/Jun/2020 04:44:14] "GET /admin/accounts/customer/ HTTP/1.1" 200 4373
+[10/Jun/2020 04:44:23] "GET /admin/ HTTP/1.1" 200 4356
+[10/Jun/2020 04:44:25] "GET /admin/ HTTP/1.1" 200 4356
+[10/Jun/2020 04:44:26] "GET /admin/accounts/customer/ HTTP/1.1" 200 4373
+[10/Jun/2020 04:44:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\models.py changed, rel
+oading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:44:48
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[10/Jun/2020 04:44:49] "GET /admin/accounts/customer/ HTTP/1.1" 200 4358
+[10/Jun/2020 04:44:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+C:\Users\Bryan Devadatha\Desktop\django_project1\accounts\models.py changed, rel
+oading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 10, 2020 - 04:46:05
+Django version 3.0.7, using settings 'django_project1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
